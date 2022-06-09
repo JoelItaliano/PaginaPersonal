@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+</head>
+<body>
+    <header id="header">
+        <div class="title">
+        <h1>Joel Italiano<br>
+            Developer</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="hamburger" id="ico" >
+        <span class="material-symbols-outlined">
+        menu_open
+        </span>
+        </div>
+        <ul class="nav_menu ">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacto</a></li>
+            <li><a href="#header">Home</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <section id="about">
+          <div class="about_me">
+              <div class="foto_Carnet">
+                  <img src="./Img/fotoCarnet.jpeg" alt="Foto de tipo carnet">
+              </div>
+              <div class="info">
+                <h2>About me</h2>
+                <p>Soy un estudiante de la carrera Técnico Superior en Desarrollo de Software que termino
+                de cursar el último año. Me considero una persona autodidacta, con facilidad y
+                predisposición para adquirir nuevos conocimientos. </p>
+                <p><strong>Habilidades:</strong> HTML, CSS, JS, React</p>
+              </div>
+          </div>
+
+        </section>
+        <section  id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="contenedor_proyecto">
+              <section class="proyecto">
+               <figure>
+                <img src="./Img/imgOpenSpace.jpg" alt="foto proyecto" loading="lazy">
+                   <figcaption>Proyecto de Open Space <br> <button type="button" class="open-window" id="btnSpace">Info del proyecto</button></figcaption>
+               </figure>
+              </section>
+              <section class="proyecto">
+               <figure>
+                <img src="./Img/proyecto%20Piano%20virtual.jpg" alt="foto del proyecto Piano virtual" loading="lazy">
+                <figcaption>Virtual Piano<br> <button type="button" class="open-window" id="btnPiano">Info del proyecto</button></figcaption>
+               </figure>
+              </section>
+               <article></article>
+                <section class="popups">
+                    <article class="window" id="space">
+                        <h2><ins>Proyecto: Open Space</ins></h2>
+                        <p>Puede ver este proyecto en <a href="https://github.com/JoelItaliano/OpenSpace.git" target="_blank">OpenSpace.git</a></p>
+                        <p>Este proyecto fue creado, con el fin de afrontar los diferentes desafíos que presenta la página <a href="https://hyperskill.org/" target="_blank">Jet Brains HyperSkill.</a>
+                            <br> Su resolución, aportó al desarrollo de nuevas habilidades en mi formación profesional como Desarrollador de Software.
+                            <br> En el proceso, adquirí conocimientos y habilidades prácticas, que contribuyeron a resolver los retos que se presentaron.</p>
+                        <button class="close-window"> Close</button>
+                    </article>
+                    <article class="window" id="piano">
+                        <h2><ins>Proyecto: Virtual Piano</ins></h2>
+                        <p>Puede ver este proyecto en <a href="https://github.com/JoelItaliano/Piano_Virtual" target="_blank">Piano_Virtual.git</a></p>
+                        <p>Este proyecto fue creado, con el fin de afrontar los diferentes desafíos que presenta la página <a href="https://hyperskill.org/" target="_blank">Jet Brains HyperSkill.</a>
+                            <br> Su resolución, aportó al desarrollo de nuevas habilidades en mi formación profesional como Desarrollador de Software.
+                            <br> En el proceso, adquirí conocimientos y habilidades prácticas, que contribuyeron a resolver los retos que se presentaron.</p>
+                        <button class="close-window"> Close</button>
+                    </article>
+                </section>
+            </div>
+
+        </section>
+        <section id="contacts">
+           <h2>Contacts</h2>
+           <p>Puede contactarme en <a href="">joelitaliano93@gmail.com</a> o al número <strong>+54 3462-644708</strong></p>
+           <div class="logo_contacto">
+             <img src="./SVG/github.svg" alt="logo github" loading="lazy">
+             <img src="./SVG/twitter.svg" alt="logo twitter" loading="lazy">
+           </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Joel Italiano</h2>
+        <p>2022</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
